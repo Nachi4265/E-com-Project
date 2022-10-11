@@ -4,7 +4,7 @@
         "video": "/Videos/product1.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by:SomeGuy ",
         "button":"BUY?"
         
       },
@@ -13,7 +13,7 @@
         "video": "/Videos/product2.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
       },
@@ -22,7 +22,7 @@
         "video": "/Videos/product3.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
       },
@@ -32,7 +32,7 @@
         "video": "/Videos/product4.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
       },
@@ -41,7 +41,7 @@
         "video": "/Videos/product5.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
       },
@@ -50,7 +50,7 @@
         "video": "/Videos/product6.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
       },
@@ -58,7 +58,7 @@
         "video": "/Videos/product7.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy",
         "button":"BUY?"
         
       },
@@ -66,7 +66,7 @@
         "video": "/Videos/product8.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
       },
@@ -74,7 +74,7 @@
         "video": "/Videos/product9.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
       },
@@ -82,7 +82,7 @@
         "video": "/Videos/product10.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
       },
@@ -90,7 +90,7 @@
         "video": "/Videos/product11.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by:SomeGuy",
         "button":"BUY?"
         
       },
@@ -98,7 +98,7 @@
         "video": "/Videos/product12.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
         
@@ -107,7 +107,7 @@
         "video": "/Videos/product13.mp4",
         "name":"Product Name",
         "price":"Price: $289.00",
-        "description": "Art Made by ",
+        "description": "Art Made by: SomeGuy ",
         "button":"BUY?"
         
       }

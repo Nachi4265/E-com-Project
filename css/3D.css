@@ -130,17 +130,21 @@ body{
     -webkit-text-stroke-color: rgb(238, 207, 229) ;
 }
 
+.product{
+  height: 410vh;
+}
+
 
 .columns{
-    column-count:2 ;
-    column-width: 550px;
+    column-count:3 ;
+    column-width: 350px;
     column-gap: 40px;
 }
 
 .product-box{
 
     display: inline-block;
-    width: 550px;
+    width: 350px;
     position:initial;
     top:50%;
     left: 50%;
@@ -149,6 +153,8 @@ body{
     padding: 30px;
     margin: 50px;
     color: #3e3e3e;
+    box-shadow: 8px 8px rgb(238, 80, 255);
+
 
 }
 
@@ -161,8 +167,8 @@ body{
     order: 0;}
 
 .product-item #video{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -171,7 +177,7 @@ body{
     text-align: center;
     font-size: 52px;
     font-weight: 600px;
-    color: #dac456;
+    color: rgb(255, 197, 80);
 }
 
 .product-description p {
@@ -182,13 +188,17 @@ body{
 }
 
 .product-price p {
+  padding: 3px;
     text-align: center;
     font-size: 22px;
     font-weight: 600px;
+    color: #c8603a;
+
 }
 
 .button {
-
+    margin-left:100px ;
+    margin-top: 15px;
     background-color: #f6d94a;
     border-radius:10px;
     width: 100px;
@@ -235,6 +245,7 @@ body{
   .footer{
     padding: 20px 0;
     background-color: rgb(187, 194, 242);
+   
   }
   
   .footer-col{
@@ -245,7 +256,7 @@ body{
   
   .footer-col h3 {
     font-size: 26px;
-    color: rgb(101, 81, 148);
+    background-color: rgb(187, 194, 242);
     text-transform: capitalize;
     margin-bottom: 10px;
     font-weight: 500;
@@ -254,7 +265,7 @@ body{
   .footer-col ul li a {
     font-size: 18px;
     text-transform: capitalize;
-    color: rgb(92, 61, 95);
+    background-color: rgb(187, 194, 242);
     text-decoration: none;
     font-weight: 300;
   
@@ -275,6 +286,16 @@ body{
   }
 
   @media screen and (max-width:320px){
+    body{width: 100%;}
+
+
+    
+  }
+
+
+
+
+  @media screen and (max-width:320px){
     .container{
         max-width: 320px;
         background-color: rgb(255, 255, 255);
@@ -290,6 +311,7 @@ body{
         flex-wrap:wrap ;
       }
       .footer{
+        padding:80px;
         padding: 20px 0;
         background-color: black;
       }
@@ -332,7 +354,148 @@ body{
         display:flex;
         flex-wrap: wrap;
       }
+
+      .Title{
+        margin: auto;
+        width:300px ;
+        text-align: center;
+        color: rgb(187, 35, 116);
+        position: relative;
+        background-color: white;
+        border-radius: 70px;
+    }
     
+    
+    
+    .Title h1{
+        font-size: 40px;
+        font-weight: 500;
+        position: relative;
+        z-index: 10;
+    }
+
+
+.back-text{
+  width: 150px;
+  position:absolute;
+  top:80%;
+  left: 50%;
+  transform: translate(-50% , 30%);
+  background-color: white;
+  border-radius: 70px;
+}
+
+.back-text span{
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  -webkit-text-stroke: 4px rgba(167, 43, 80, 0);
+  transform: translateY(150px);
+  opacity: 1;
+  transition: transform .4s, opacity 0.5s , -webkit-text-stroke-color 0.5s;
+}
+    
+
+
+.hero{
+    
+    
+  width: 100%;
+  height:55vh; 
+  background: url(/Videos/banner.webp);
+  padding-top: 150px;
+  
+  
+}
+
+    
+.product{
+  height: 410vh;
+}
+
+
+.columns{
+    column-count:3 ;
+    column-width: 100px;
+    column-gap: 20px;
+}
+
+.product-box{
+
+    display: inline-block;
+    width: 150px;
+    position:initial;
+    top:50%;
+    left: 50%;
+    background:rgb(244, 240, 210);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: #3e3e3e;
+    box-shadow: 8px 8px rgb(238, 80, 255);
+
+
+}
+
+.product-content{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;}
+
+.product-item #video{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.product-name h1{ 
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600px;
+    color: rgb(255, 197, 80);
+}
+
+.product-description p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600px;
+    color: #dac456;
+}
+
+.product-price p {
+  padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600px;
+    color: #c8603a;
+
+}
+
+.button {
+    margin-left:0px ;
+    margin-top: 15px;
+    background-color: #f6d94a;
+    border-radius:10px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 5px 5px coral;
+
+
+  }
+
+  .button:hover {
+    background-color:#f2aa90}
+
+.button {
+     transition-duration: 0.4s;
+ }
+
+
   }
 
 

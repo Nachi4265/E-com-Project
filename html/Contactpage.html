@@ -31,24 +31,25 @@
        
         
         <!-- Contact form goes here -->
+        
         <form>
             <h1>CONTACT US</h1>
             <div class="row">
                
             
             <div class="input-group">
-                <input type="text" id="number" required>
+                <input type="text" id="contact-name" onkeyup="validateName()" required>
                 <label for="name">Your Name</label>
             </div>
 
              <div class="input-group">
-                <input type="text" id="name" required>
+                <input type="text" id="contact-phone" onkeyup="validatePhone()" required>
                 <label for="number">Phone number</label>
             </div>
 
             </div>
             <div class="input-group">
-                <input type="email" id="email" required>
+                <input type="email" id="contact-email" onkeyup="validateEmail()" required>
                 <label for="">Enter Email</label>
              </div>
 
@@ -110,6 +111,6 @@
             </div>
         </div>
       </footer>
-
+<script src="contact.js"></script>
 </body>
 </html>
